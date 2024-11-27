@@ -1,0 +1,46 @@
+html,
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+header {
+  border-bottom: solid 1px;
+}
+
+footer {
+  margin-top: auto;
+  border-top: solid 1px;
+}
+
+table {
+  border: solid 1px #404068;
+}
+
+.head-cell {
+  background-color: #404068;
+  border: solid 1px #48467c;
+  color: #fefefa;
+}
+
+td {
+  background-color: #796cb2;
+  border: solid 2px #404068;
+  color: #fefefa;
+}
+
+.head-cell:hover,
+td:hover {
+  background-color: #48467c;
+}
+
+.welcome-img {
+  width: 150px;
+  height: 150px;
+}
+
+.passion-img {
+  height: 15%;
+  object-fit: cover;
+}
